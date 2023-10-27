@@ -1,0 +1,93 @@
+.body{
+    background-color: black;
+    height: 99vh;
+    width: 100%;
+    font-family: Helvetica,
+}
+
+.card-href:hover{
+    background-color: rebeccapurple;
+}
+
+.fa-brands .fa-instagram:hover {
+    color: red;
+}
+
+.links:hover{
+    opacity: 50%;
+}
+@media screen and (max-width: 1400px) {
+    .body{
+        zoom: 85%;
+        font-size: 12px;
+    }
+    .phone-container{
+        max-width: 300px;
+        margin: 0
+    }
+    .card{
+        max-width: 300px;
+        
+    }
+}
+@media screen and (max-width: 990px) {
+    .body{
+        zoom: 80%;
+        font-size: 26px;
+       
+    }
+
+    .phone-container{
+        max-width: 300px;
+        margin: 0
+    }
+    .card{
+        max-width: 220px;
+        font-size: medium;
+        
+    }
+    .picture{
+        style{
+            max-width: 200px;
+        }
+    }
+    .whatnew{
+        width: 100vw;
+
+    }
+    .inseration{
+        font-size: 3px;
+        margin-top: auto;
+    }
+    .footer{
+        width: 100vw;
+        font-size: large;
+    }
+}
+@media screen and (max-width: 770px) {
+    .body{
+        zoom: 50%;
+        font-size: 32px;
+       
+    }
+    .phone-container{
+        max-width: 800px;
+        height: 1200px;
+        margin: 0
+    }
+    .logo{
+        height: 120px;
+    }
+    .app-button{
+        height: 70px;
+    }
+    .card{
+        max-width: 160px;
+        font-size: 32px;
+    }
+    .scales{
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+    }
+}
